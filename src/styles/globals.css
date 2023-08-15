@@ -2,26 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.App {
+//background-color:  #6b6e70;
+min-height: 100vh;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.logo {
+position: relative;
+left: 110px;
+top: -265px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.font-bold {
+    //color: #6b6e70;
+    color: #0f4c81;
+    height: 50px;
+    font-size: 85px;
+    font-style: arial;
+    height: 100px;
+    position: relative;
+    top: 30px;
+}
+
+.input__submit {
+  background-color: #115f9e;
+  border-radius: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0f4c81;
+  color: white;
+  padding: 10px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+  top: 130px;
+  left: 35px;
+}
+
+.input1{
+    border-color: #115f9e;
+    border-width: 2px;
+    padding: 7px 65px;
+     border-radius: 30px;
+    position: relative;
+    top: 65px;
+}
+
+.input2{
+    border-color: #115f9e;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    top: 95px;
+    padding: 7px 65px;
+    border-radius: 30px;
+    
+}
+
+.input__box {
+    outline: none;
+    background-color: transparent; 
+    text-align: center; 
+}
+
+::placeholder { 
+   color: #454747;
+   font-size: 1.2em;
 }
