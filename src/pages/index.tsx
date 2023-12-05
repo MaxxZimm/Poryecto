@@ -23,7 +23,7 @@ const App: React.FC = () => {
                 <form action="?action=save" name="myform" method="post" onSubmit={handleSubmit}>
                     <a href=""></a>
                     <div className="input1">
-                        <input className="input__box" type="input" placeholder="Nombre" onChange={(e) => setUsername(e.target.value)}/>
+                        <input className="input__box" type="input" placeholder="Mail" onChange={(e) => setUsername(e.target.value)}/>
                     </div>
 
                     <div className="input2">
