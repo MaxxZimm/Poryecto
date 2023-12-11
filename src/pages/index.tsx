@@ -18,9 +18,12 @@ const App: React.FC = () => {
     return (
         
         <div className="App">
+            <Link href="register"> <button className="irRegister" type="submit"> Registrarse  </button> </Link>
             <div className="justify-center items-center pt-36 flex flex-col">  
+            
                 <span className="font-bold font-poppins  text-2x1">Connect</span>              
                 <form action="?action=save" name="myform" method="post" onSubmit={handleSubmit}>
+                    
                     <a href=""></a>
                     <div className="input1">
                         <input className="input__box" type="input" placeholder="Mail" onChange={(e) => setUsername(e.target.value)}/>
