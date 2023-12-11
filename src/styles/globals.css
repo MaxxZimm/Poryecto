@@ -255,7 +255,11 @@
 }
 
 .t1{
+  background-image: url('../../public/Carpinteria.png');
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #00313d;
+  background-size: 365px 275px;;
   border-radius: 30px;
   border-width: 2px;
   border-style: solid;
@@ -267,6 +271,11 @@
 
 .t2{
   background-color: #00313d;
+  background-image: url('../../public/Cuidadores.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #00313d;
+  background-size: 365px 275px;;
   border-radius: 30px;
   border-width: 2px;
   border-style: solid;
@@ -278,6 +287,11 @@
 
 .t3{
   background-color: #00313d;
+  background-image: url('../../public/Domestico.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #00313d;
+  background-size: 365px 275px;;
   border-radius: 30px;
   border-width: 2px;
   border-style: solid;
@@ -289,6 +303,11 @@
 
 .t4{
   background-color: #00313d;
+  background-image: url('../../public/Programacion.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #00313d;
+  background-size: 365px 275px;;
   border-radius: 30px;
   border-width: 2px;
   border-style: solid;
